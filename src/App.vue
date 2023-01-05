@@ -41,7 +41,7 @@
 			body {
 				width: 60em;
 				margin: 0 auto;
-				/* background-image: url(./p.jpg); */
+				background-image: url(../src/assets/p.jpg);
 				background-size: 30%;
 				background-repeat: repeat;
 			}
@@ -51,7 +51,7 @@
 				justify-content: space-between;
 				border: 5px solid red;
 				border-radius: 0.5em;
-				/* background-image: url(./u.png); */
+				background-image: url(../src/assets/u.png);
 				background-size: 15%;
 				background-repeat: repeat;
 				height: 35em;
@@ -112,7 +112,7 @@
 				width: 8em;
 				background: lightgray ;
 				border: 30px solid black;
-				/* border-image: url('./borderball.png'); */
+				border-image: url('../src/assets/borderball.png');
 				border-radius: 1em;
 				margin: 0.5em;
 				padding: 0.5em;
