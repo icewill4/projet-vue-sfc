@@ -1,11 +1,13 @@
 <template>
     <div>
       <h1>My Pokemon Team</h1>
-      <ul>
+      <ul class="team-box">
         <li v-for="pokemon in pokemons" :key="pokemon.id">
           {{ pokemon.name }}
-          <button @click="editPokemon(pokemon)">Edit</button>
-          <button @click="deletePokemon(pokemon)">Delete</button>
+          <div>
+            <button @click="editPokemon(pokemon)">Edit</button>
+            <button @click="deletePokemon(pokemon)">Delete</button>
+          </div>
         </li>
       </ul>
       <h2 v-if="pokemons.length < 6">Add Pokemon</h2>

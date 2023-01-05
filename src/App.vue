@@ -166,4 +166,22 @@
 				flex-direction: column;
 				justify-content: space-around;
 			}
+      .team-box {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background: grey;
+        padding: 1.5em;
+        align-items: center;
+      }
+      .team-box li {
+        text-align: center;
+        list-style-type: none;
+      }
+      .team-box li div {
+        display: flex;
+        justify-content: space-between;
+        margin: 0.5em;
+      }
 </style>
