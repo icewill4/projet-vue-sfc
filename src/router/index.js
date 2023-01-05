@@ -10,6 +10,11 @@ const routes = [
     name: "equipe",
     component: () => import("../views/EquipeView.vue"),
   },
+  {
+    path: "/resistance",
+    name: "resistance",
+    component: () => import("../views/ResistanceView.vue"),
+  }
 ];
 
 const router = createRouter({
