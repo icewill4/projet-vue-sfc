@@ -174,6 +174,7 @@
         background: grey;
         padding: 1.5em;
         align-items: center;
+        border-radius: 1em;
       }
       .team-box li {
         text-align: center;
