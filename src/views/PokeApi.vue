@@ -10,19 +10,7 @@
         </button>
       </li>
     </ul>
-    <div class="detail-back"
-         :style="[pkmDetail.image ?
-			{'background':
-				'url('+pkmDetail.image+'), url(./u.jpg)',
-			'background-size':
-				'contain',
-			'filter':
-				'contrast(50%)'}
-			: {'background':
-				'url(./close.png)',
-			'background-size':
-				'420px 400px'}]">
-    </div>
+  
 
     <div class="detail-front" v-if="pkmDetail.id">
       <div class="pkm-identite">

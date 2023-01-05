@@ -87,13 +87,6 @@
 			.list-lign img {
 				height: 4em;
 			}
-			.detail-back {
-				width: 25em;
-				height: 25em;
-				margin: auto;
-				border: 10px groove red;
-				border-radius: 0.5em;
-			}
 			.detail-front {
 				position: absolute;
 				top: 10.5em;
@@ -102,6 +95,9 @@
 				height: 25em;
 				display: flex;
 				flex-direction:column;
+				background: silver;
+				border-radius: 1em;
+				border: 5px solid black;
 			}
 			.pkm-identite {
 				display: flex;
