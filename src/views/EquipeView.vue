@@ -47,16 +47,13 @@
             // Reset the newPokemon object
             this.newPokemon = { name: "" };
             },
-      editPokemon(pokemon) {
-        // Edit the pokemon here
-      },
-      deletePokemon(pokemon) {
-        // Find the index of the pokemon in the list
-        const index = this.pokemons.indexOf(pokemon);
+        deletePokemon(pokemon) {
+            // Find the index of the pokemon in the list
+            const index = this.pokemons.indexOf(pokemon);
   
-        // Remove the pokemon from the list
-        this.pokemons.splice(index, 1);
-      },
+            // Remove the pokemon from the list
+            this.pokemons.splice(index, 1);
+        },
     },
   };
   </script>
