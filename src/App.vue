@@ -41,7 +41,7 @@
 			body {
 				width: 60em;
 				margin: 0 auto;
-				background-image: url(../src/assets/p.jpg);
+				background-image: url(../src/assets/pik.jpeg);
 				background-size: 30%;
 				background-repeat: repeat;
 			}
