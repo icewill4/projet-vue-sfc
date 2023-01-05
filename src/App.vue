@@ -1,8 +1,7 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>|
-	<router-link to="/equipe">Equipe</router-link>
+	  <router-link to="/equipe">Equipe</router-link>
   </nav>
   <router-view/>
 </template>
@@ -174,6 +173,7 @@
         background: grey;
         padding: 1.5em;
         align-items: center;
+        border-radius: 1em;
       }
       .team-box li {
         text-align: center;
