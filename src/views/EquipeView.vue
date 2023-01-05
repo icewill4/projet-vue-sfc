@@ -5,7 +5,6 @@
         <li v-for="pokemon in pokemons" :key="pokemon.id">
           {{ pokemon.name }}
           <div>
-            <button @click="editPokemon(pokemon)">Edit</button>
             <button @click="deletePokemon(pokemon)">Delete</button>
           </div>
         </li>
@@ -22,6 +21,7 @@
   </template>
   
   <script>
+  
   export default {
     name: "PokemonList",
     data() {
